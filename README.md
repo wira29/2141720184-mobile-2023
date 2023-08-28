@@ -1,4 +1,4 @@
-Nama : Wiradarma Nurmagika Bagaskara
-Kelas : 3H
-NIM : 2141720184
-Mata Kuliah : Pemrograman Mobile - 2023
+Nama : Wiradarma Nurmagika Bagaskara\n
+Kelas : 3H\n
+NIM : 2141720184\n
+Mata Kuliah : Pemrograman Mobile - 2023\n
