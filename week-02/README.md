@@ -8,7 +8,7 @@
 
 #### 1. Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!
 
-![This is an alt text.](./soal_1.jpg "soal 1.")
+![This is an alt text.](./docs/soal_1.jpg "soal 1.")
 
 #### 2. Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter ? Jelaskan!
 
