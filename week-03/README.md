@@ -42,3 +42,27 @@
   **Jawab:** Tidak terjadi error, karena variable **counter** telah dideklarasikan dan diinisialisasikan pada **langkah 2**
 
 ##### Praktikum 3
+
+- **langkah 1**
+  Ketik atau salin kode program berikut ke dalam fungsi main().
+  ![This is an alt text.](./docs/praktikum3_1.jpg "soal 1.")
+- **langkah 2**
+  ![This is an alt text.](./docs/praktikum3_2.jpg "soal 1.")
+  Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+  **Jawab:** Terjadi error yang disebabkan oleh variable **index** belum dideklarasikan dan diinisialisasikan.
+  ![This is an alt text.](./docs/praktikum3_2fix.jpg "soal 1.")
+  Error hilang setelah variable **index** dideklarasikan dan diinisialisasikan.
+- **langkah 3**
+  Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
+  ![This is an alt text.](./docs/praktikum3_3.jpg "soal 1.")
+  Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
+  **Jawab:** Sebenarnya tidak terjadi error, namun karena kondisi pada **else if (index > 1 || index < 7)** yang selalu menghasilkan nilai **true**, maka setiap perulangan akan diskip hingga perulangan berakhir, yang menyebabkan tidak menampilkan output apapun.
+
+#### 2. Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+![This is an alt text.](./docs/tugas.jpg "soal 1.")
+Disini saya menggunakan algoritma **Sieve of Eratosthenes** untuk mencari bilangan primary.
+
+##### Hasil
+
+![This is an alt text.](./docs/tugas_hasil.jpg "soal 1.")
