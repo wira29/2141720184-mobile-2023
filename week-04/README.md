@@ -200,6 +200,13 @@ print("selamat datang, $nama");
 **Lexical closures** adalah fungsi yang memiliki akses ke variabel dalam cakupan leksikalnya, meskipun fungsi tersebut digunakan di luar cakupan aslinya.
 
 Contoh syntax:
+Function makeChat(String pengirim) {
+return (String pesan) => print(pesan + " dikirim oleh " + pengirim);
+}
+
+var wira = makeChat("Wira")
+
+wira("testing pesan!")
 
 #### 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
 
