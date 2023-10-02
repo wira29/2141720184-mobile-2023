@@ -95,6 +95,7 @@
   Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
 
   ![This is an alt text.](./docs/praktikum2_12.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum3_mobile0.gif "soal 1.")
 
 ##### Praktikum 3: Menerapkan Widget Dasar
 
@@ -102,6 +103,7 @@
   Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di dalam basic_widgets dengan nama text_widget.dart. Ketik atau salin kode program berikut ke project hello_world Anda pada file text_widget.dart.
 
   ![This is an alt text.](./docs/praktikum3_1.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum3_mobile1.gif "soal 1.")
 
   Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
@@ -117,6 +119,7 @@
   Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
 
   ![This is an alt text.](./docs/praktikum3_2-3.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum3_mobile2.gif "soal 1.")
 
 ##### Praktikum 4: Menerapkan Widget Material Design dan iOS Cupertino
 
@@ -124,6 +127,7 @@
   Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
   ![This is an alt text.](./docs/praktikum4_1.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum4_mobile1.gif "soal 1.")
 
 - **langkah 2**
   Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
@@ -131,6 +135,7 @@
   Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
   ![This is an alt text.](./docs/praktikum4_2.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum4_mobile2.gif "soal 1.")
 
 - **langkah 3**
   Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
@@ -138,6 +143,7 @@
   Ubah isi kode main.dart seperti berikut.
 
   ![This is an alt text.](./docs/praktikum4_3.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum4_mobile3.gif "soal 1.")
 
 - **langkah 4**
   Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
@@ -145,6 +151,7 @@
   Ubah isi kode main.dart seperti berikut.
 
   ![This is an alt text.](./docs/praktikum4_4.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum4_mobile4.gif "soal 1.")
 
 - **langkah 5**
   Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
@@ -152,11 +159,13 @@
   Contoh penggunaan TextField widget adalah sebagai berikut:
 
   ![This is an alt text.](./docs/praktikum4_5.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum4_mobile5.gif "soal 1.")
 
 - **langkah 6**
   Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 
   ![This is an alt text.](./docs/praktikum4_6.jpg "soal 1.")
+  ![This is an alt text.](./docs/tugas4_1.gif "soal 1.")
 
 #### 2. Pada praktikum 4 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
 
@@ -199,9 +208,11 @@
 
 - **Praktikum 2**
   ![This is an alt text.](./docs/praktikum2_12.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum3_mobile0.gif "soal 1.")
 
 - **Praktikum 3**
   ![This is an alt text.](./docs/praktikum3_2-3.jpg "soal 1.")
+  ![This is an alt text.](./docs/praktikum3_mobile2.gif "soal 1.")
 
 - **Praktikum 4**
   ![This is an alt text.](./docs/tugas4_1.gif "soal 1.")
