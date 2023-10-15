@@ -82,3 +82,53 @@
   Disini untuk widget **Column** saya ganti menjadi widget **ListView**, karena jika menggunakan **Column** akan overflow untuk tingginya (total tinggi widget melebihi tinggi device), maka dari itu dirubah menjadi **ListView** agar dapat discroll.
 
   ![This is an alt text.](./docs/praktikum3_hasil.jpg "soal 1.")
+
+#### 2. Basic Layout!
+
+##### Row Column
+
+![This is an alt text.](./docs/row_column.jpg "soal 1.")
+
+##### Axis Min
+
+![This is an alt text.](./docs/main_axis_min.jpg "soal 1.")
+
+##### Axis Max
+
+![This is an alt text.](./docs/main_axis_max.jpg "soal 1.")
+
+##### Alignment End
+
+![This is an alt text.](./docs/alignment_end.jpg "soal 1.")
+
+##### Cross Alignment Center
+
+![This is an alt text.](./docs/cross_alignment_center.jpg "soal 1.")
+
+##### Cross Alignment End
+
+![This is an alt text.](./docs/cross_alignment_end.jpg "soal 1.")
+
+##### Flexible
+
+![This is an alt text.](./docs/flexible.jpg "soal 1.")
+
+##### Expanded
+
+![This is an alt text.](./docs/expanded.jpg "soal 1.")
+
+##### Sizedbox
+
+![This is an alt text.](./docs/sizedbox.jpg "soal 1.")
+
+##### Spacer
+
+![This is an alt text.](./docs/spacer.jpg "soal 1.")
+
+##### Text
+
+![This is an alt text.](./docs/text.jpg "soal 1.")
+
+##### Icon
+
+![This is an alt text.](./docs/icon.jpg "soal 1.")
