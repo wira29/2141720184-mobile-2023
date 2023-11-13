@@ -107,4 +107,7 @@ Ganti menjadi kode seperti berikut.
 ### Soal 6
 
 - Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+  Jawab: Pada langkah 5-6, method calculate dilakukan try catch untuk menangani error. Jika berhasil completer akan complete, namun jika error completer akan completeError. Sehingga ketika terjadi error pada method getNumber akan dipanggil catchError yang akan merubah variable result menjadi "An error occurred".
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
+
+![This is an alt text.](./docs/praktikum3_hasil2.gif "gambar")
