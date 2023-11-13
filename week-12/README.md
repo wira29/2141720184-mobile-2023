@@ -37,6 +37,8 @@ Tambahkan kode pada onPressed di ElevatedButton seperti berikut.
 ### Soal 3
 
 - Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+  Jawab: Hasil fetch data dari googleapis yang berupa json diubah menjadi string dengan memanggil fungsi toString(), kemudian digunakan fungsi substtring untuk memotong string hasil fetch data. CatchError digunakan untuk menangani error ketika fetch data gagal dilakukan.
+
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 
 ![This is an alt text.](./docs/praktikum1_hasil.gif "gambar")
