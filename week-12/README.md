@@ -139,3 +139,4 @@ Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
 ### Soal 8
 
 Jelaskan maksud perbedaan kode langkah 1 dan 4!
+Jawab: Perbedaan langkah 1 dan 4 terletak pada pemanggilan future-future yang akan dijadikan grup. Pada langkah satu, dibuat dulu FutureGroup kemudian future-future ditambahkan didalamnya, sedangkan pada langkah 4 langsung memanggil Future.wait kemudian di dalamnya dipanggil future-future yang akan dijadikan grup pada sebuah array.
