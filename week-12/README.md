@@ -68,3 +68,43 @@ Akhirnya, run atau tekan F5 jika aplikasi belum running. Maka Anda akan melihat 
   Langkah 2 kita membuat method count yang akan memanggil 3 method pada langkah 1 dengan await untuk menunggu proses hingga selesai kemudian dijumlahkan pada variable total. Pemanggilan 3 method ini menghabiskan waktu selama 9 detik.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
   ![This is an alt text.](./docs/praktikum2_hasil.gif "gambar")
+
+# Praktikum 3: Menggunakan Completer di Future
+
+### Langkah 1: Buka main.dart
+
+Pastikan telah impor package async berikut.
+
+### Langkah 2: Tambahkan variabel dan method
+
+Tambahkan variabel late dan method di class \_FuturePageState seperti ini.
+
+### Langkah 3: Ganti isi kode onPressed()
+
+Tambahkan kode berikut pada fungsi onPressed(). Kode sebelumnya bisa Anda comment.
+
+### Langkah 4:
+
+Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini. Setelah 5 detik, maka angka 42 akan tampil.
+
+### Soal 5
+
+- Jelaskan maksud kode langkah 2 tersebut!
+  Jawab: Terdapat deklarasi variable completer, method getNumber, dan method calculate. Method calculate akan merubah completer menjadi berhasil / complete dengan nilai 42 setelah delay 5 detik. Method getNumber menginisialisasi variable completer dan akan memanggil method calculate, setelah itu akan di return menjadi future.
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
+
+![This is an alt text.](./docs/praktikum3_hasil.gif "gambar")
+
+### Langkah 5: Ganti method calculate()
+
+Gantilah isi code method calculate() seperti kode berikut, atau Anda dapat membuat calculate2()
+
+### Langkah 6: Pindah ke onPressed()
+
+Ganti menjadi kode seperti berikut.
+
+### Soal 6
+
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
