@@ -111,3 +111,31 @@ Ganti menjadi kode seperti berikut.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".
 
 ![This is an alt text.](./docs/praktikum3_hasil2.gif "gambar")
+
+# Praktikum 4: Memanggil Future secara paralel
+
+### Langkah 1: Buka file main.dart
+
+Tambahkan method ini ke dalam class \_FuturePageState
+
+### Langkah 2: Edit onPressed()
+
+Anda bisa hapus atau comment kode sebelumnya, kemudian panggil method dari langkah 1 tersebut.
+
+### Langkah 3: Run
+
+Anda akan melihat hasilnya dalam 3 detik berupa angka 6 lebih cepat dibandingkan praktikum sebelumnya menunggu sampai 9 detik.
+
+### Soal 7
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
+
+![This is an alt text.](./docs/praktikum4_hasil.gif "gambar")
+
+### Langkah 4: Ganti variabel futureGroup
+
+Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
+
+### Soal 8
+
+Jelaskan maksud perbedaan kode langkah 1 dan 4!

@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:async/async.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
@@ -92,6 +93,24 @@ class _FuturePageState extends State<FuturePage> {
     }
   }
 
+  // Praktikum 4
+  void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+    futureGroup.close();
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+      for (var element in value) {
+        total += element;
+      }
+      setState(() {
+        result = total.toString();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -123,13 +142,16 @@ class _FuturePageState extends State<FuturePage> {
                 //     result = value.toString();
                 //   });
                 // });
-                getNumber().then((value) {
-                  setState(() {
-                    result = value.toString();
-                  });
-                }).catchError((e) {
-                  result = 'An error occurred';
-                });
+                // getNumber().then((value) {
+                //   setState(() {
+                //     result = value.toString();
+                //   });
+                // }).catchError((e) {
+                //   result = 'An error occurred';
+                // });
+
+                // Praktikum 4
+                returnFG();
               },
               child: const Text("GO!"),
             ),
