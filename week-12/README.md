@@ -39,4 +39,4 @@ Tambahkan kode pada onPressed di ElevatedButton seperti berikut.
 - Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 
-![This is an alt text.](./docs/praktikum2_hasil.gif "gambar")
+![This is an alt text.](./docs/praktikum1_hasil.gif "gambar")
