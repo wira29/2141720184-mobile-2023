@@ -192,6 +192,12 @@ Buat class LocationScreen di dalam file geolocation.dart
 
 ### Langkah 5: Isi kode geolocation.dart
 
+### Soal 11
+
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+![This is an alt text.](./docs/praktikum6.jpg "gambar")
+
 ### Langkah 6: Edit main.dart
 
 Panggil screen baru tersebut di file main Anda seperti berikut.
