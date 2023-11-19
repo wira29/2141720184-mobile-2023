@@ -140,3 +140,54 @@ Anda dapat menggunakan FutureGroup dengan Future.wait seperti kode berikut.
 
 Jelaskan maksud perbedaan kode langkah 1 dan 4!
 Jawab: Perbedaan langkah 1 dan 4 terletak pada pemanggilan future-future yang akan dijadikan grup. Pada langkah satu, dibuat dulu FutureGroup kemudian future-future ditambahkan didalamnya, sedangkan pada langkah 4 langsung memanggil Future.wait kemudian di dalamnya dipanggil future-future yang akan dijadikan grup pada sebuah array.
+
+# Praktikum 5: Menangani Respon Error pada Async Code
+
+### Langkah 1: Buka file main.dart
+
+Tambahkan method ini ke dalam class \_FuturePageState
+
+### Langkah 2: ElevatedButton
+
+Ganti dengan kode berikut
+
+### Langkah 3: Run
+
+Lakukan run dan klik tombol GO! maka akan menghasilkan seperti gambar berikut.
+
+### Soal 9
+
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
+
+![This is an alt text.](./docs/praktikum5_hasil.gif "gambar")
+
+### Langkah 4: Tambah method handleError()
+
+Tambahkan kode ini di dalam class \_FutureStatePage
+
+### Soal 10
+
+Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+
+Jawab:
+Hasilnya sama saja dengan langkah 1, namun yang membedakan hanya di pemanggilan saja. Pada langkah 1 kita menggunakan .then untuk menangkap ketika sukses dan .catchError untuk menagkap error, sedangkan pada langkah 4 itu sudah ditangani oleh try catch sehingga tinggal memanggil nama fungsinya saja.
+
+# Praktikum 6: Menggunakan Future dengan StatefulWidget
+
+### Langkah 1: install plugin geolocator
+
+Tambahkan plugin geolocator dengan mengetik perintah berikut di terminal.
+
+### Langkah 2: Tambah permission GPS
+
+Jika Anda menargetkan untuk platform Android, maka tambahkan baris kode berikut di file android/app/src/main/androidmanifest.xml
+
+### Langkah 3: Buat file geolocation.dart
+
+Tambahkan file baru ini di folder lib project Anda.
+
+### Langkah 4: Buat StatefulWidget
+
+Buat class LocationScreen di dalam file geolocation.dart
+
+### Langkah 5: Isi kode geolocation.dart
