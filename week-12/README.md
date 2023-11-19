@@ -305,3 +305,32 @@ Lakukan run, jika terjadi error silakan diperbaiki.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
 
 ![This is an alt text.](./docs/praktikum8_hasil.gif "gambar")
+
+# Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+
+### Langkah 1: Buat file baru navigation_dialog.dart
+
+Buat file dart baru di folder lib project Anda.
+
+### Langkah 2: Isi kode navigation_dialog.dart
+
+### Langkah 3: Tambah method async
+
+### Langkah 4: Panggil method di ElevatedButton
+
+### Langkah 5: Edit main.dart
+
+Ubah properti home
+
+### Langkah 6: Run
+
+Coba ganti warna background dengan widget dialog tersebut. Jika terjadi error, silakan diperbaiki. Jika berhasil, akan tampil seperti gambar berikut.
+
+### Soal 17
+
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+  Jawab:
+  Warna tidak langsung berubah karena tidak ada pemanggilan setState untuk merebuild UI. Namun setelah ditambahkan setState dan await pada \_showColorDialog() maka warna background akan langsung berubah sesuai button yang dipilih.
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".
+  ![This is an alt text.](./docs/praktikum9_hasil.gif "gambar")
