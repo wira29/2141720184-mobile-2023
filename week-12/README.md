@@ -258,3 +258,8 @@ Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restar
 
 Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
+
+Jawab:
+Tidak ada perubahan UI dari sebelumnya.
+
+![This is an alt text.](./docs/praktikum7_hasil.gif "gambar")
