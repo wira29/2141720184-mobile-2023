@@ -300,5 +300,8 @@ Lakukan run, jika terjadi error silakan diperbaiki.
 ### Soal 16
 
 - Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+  Jawab: ketika button diklik, maka background pada NavigationFirst akan berubah. Hal ini disebabkan karena ketika NavigationSecond kembali ke NavigationFirst, mengembalikan warna sesuai dengan button yang diklik, sehingga background dari NavigationFirst akan berubah-ubah.
 - Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
+
+![This is an alt text.](./docs/praktikum8_hasil.gif "gambar")
