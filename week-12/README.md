@@ -214,4 +214,11 @@ Tambahkan widget loading seperti kode berikut. Lalu hot restart, perhatikan peru
 
 - Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
 - Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+
+Jawab:
+Tetap mendapatkan koordinat GPS, jika kita memberikan izin untuk mengakses GPS kita
+
+![This is an alt text.](./docs/praktikum6_2.jpg "gambar")
+
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
+  ![This is an alt text.](./docs/praktikum6_hasil.gif "gambar")

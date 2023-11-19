@@ -28,17 +28,22 @@ class _LocationScreenState extends State<LocationScreen> {
     await Geolocator.requestPermission();
     await Geolocator.isLocationServiceEnabled();
     Position? position = await Geolocator.getCurrentPosition();
+    await Future.delayed(const Duration(seconds: 3));
     return position;
   }
 
   @override
   Widget build(BuildContext context) {
+    final myWidget = myPosition.isEmpty
+        ? const CircularProgressIndicator()
+        : Text(myPosition);
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Wira'),
       ),
       body: Center(
-        child: Text(myPosition),
+        child: myWidget,
       ),
     );
   }
