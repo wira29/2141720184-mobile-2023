@@ -222,3 +222,39 @@ Tetap mendapatkan koordinat GPS, jika kita memberikan izin untuk mengakses GPS k
 
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
   ![This is an alt text.](./docs/praktikum6_hasil.gif "gambar")
+
+# Praktikum 7: Manajemen Future dengan FutureBuilder
+
+### Langkah 1: Modifikasi method getPosition()
+
+Buka file geolocation.dart kemudian ganti isi method dengan kode ini.
+
+### Langkah 2: Tambah variabel
+
+Tambah variabel ini di class \_LocationScreenState
+
+### Langkah 3: Tambah initState()
+
+Tambah method ini dan set variabel position
+
+### Langkah 4: Edit method build()
+
+Ketik kode berikut dan sesuaikan. Kode lama bisa Anda comment atau hapus.
+
+### Soal 13
+
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+  Jawab:
+  Tidak ada perubahan, hal ini disebabkan karena dengan menggunakan FutureBuilder, kita dapat melakukan pengecekan ketika status state sedang waiting maupun done, sehingga kita dapat mereturn widget sesuai dengan state yang sedang berlangsung.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
+  ![This is an alt text.](./docs/praktikum7_hasil.gif "gambar")
+- Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+
+### Langkah 5: Tambah handling error
+
+Tambahkan kode berikut untuk menangani ketika terjadi error. Kemudian hot restart.
+
+### Soal 14
+
+Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".
