@@ -263,3 +263,42 @@ Jawab:
 Tidak ada perubahan UI dari sebelumnya.
 
 ![This is an alt text.](./docs/praktikum7_hasil.gif "gambar")
+
+# Praktikum 8: Navigation route dengan Future Function
+
+### Langkah 1: Buat file baru navigation_first.dart
+
+Buatlah file baru ini di project lib Anda.
+
+### Langkah 2: Isi kode navigation_first.dart
+
+### Soal 15
+
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+- Silakan ganti dengan warna tema favorit Anda.'
+
+![This is an alt text.](./docs/praktikum8_soal15.jpg "gambar")
+
+### Langkah 3: Tambah method di class \_NavigationFirstState
+
+Tambahkan method ini.
+
+### Langkah 4: Buat file baru navigation_second.dart
+
+Buat file baru ini di project lib Anda. Silakan jika ingin mengelompokkan view menjadi satu folder dan sesuaikan impor yang dibutuhkan.
+
+### Langkah 5: Buat class NavigationSecond dengan StatefulWidget
+
+### Langkah 6: Edit main.dart
+
+Lakukan edit properti home.
+
+### Langkah 8: Run
+
+Lakukan run, jika terjadi error silakan diperbaiki.
+
+### Soal 16
+
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+- Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
