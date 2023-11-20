@@ -1,3 +1,6 @@
+import 'dart:async';
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:stream_wira/stream.dart';
 
@@ -47,18 +50,38 @@ class StreamHomepage extends StatefulWidget {
 class _StreamHomepageState extends State<StreamHomepage> {
   Color bgColor = Colors.blueGrey;
   late ColorStream colorStream;
+  int lastNumber = 0;
+  late StreamController numberStreamController;
+  late NumberStream numberStream;
 
   void changeColor() async {
+    // Praktikum 1
     // await for (var eventColor in colorStream.getColors()) {
     //   setState(() {
     //     bgColor = eventColor;
     //   });
     // }
-    colorStream.getColors().listen((event) {
+    // colorStream.getColors().listen((event) {
+    //   setState(() {
+    //     bgColor = event;
+    //   });
+    // });
+
+    // Praktikum 2
+    numberStream = NumberStream();
+    numberStreamController = numberStream.controller;
+    Stream stream = numberStreamController.stream;
+    stream.listen((event) {
       setState(() {
-        bgColor = event;
+        lastNumber = event;
       });
     });
+  }
+
+  void addRandomNumber() {
+    Random random = Random();
+    int myNum = random.nextInt(10);
+    numberStream.addNumberToSink(myNum);
   }
 
   @override
@@ -70,13 +93,33 @@ class _StreamHomepageState extends State<StreamHomepage> {
   }
 
   @override
+  void dispose() {
+    super.dispose();
+
+    numberStream.close();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Stream'),
       ),
-      body: Container(
-        decoration: BoxDecoration(color: bgColor),
+      // body: Container(
+      //   decoration: BoxDecoration(color: bgColor),
+      // ),
+      body: SizedBox(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(lastNumber.toString()),
+            ElevatedButton(
+                onPressed: () => addRandomNumber(),
+                child: const Text("New Random Number"))
+          ],
+        ),
       ),
     );
   }

@@ -90,3 +90,72 @@ Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
   Jawab:
   Listen digunakan untuk memberikan fungsi callback ketika ada perubahan pada stream. Sedangkan await for akan melakukan iterasi setiap nilai yang didapatkan dari stream.
 - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
+
+# Praktikum 2: Stream controllers dan sinks
+
+### Langkah 1: Buka file stream.dart
+
+Lakukan impor dengan mengetik kode ini.
+
+### Langkah 2: Tambah class NumberStream
+
+Tetap di file stream.dart tambah class baru seperti berikut.
+
+### Langkah 3: Tambah StreamController
+
+Di dalam class NumberStream buatlah variabel seperti berikut.
+
+### Langkah 4: Tambah method addNumberToSink
+
+Tetap di class NumberStream buatlah method ini
+
+### Langkah 5: Tambah method close()
+
+### Langkah 6: Buka main.dart
+
+Ketik kode import seperti berikut
+
+### Langkah 7: Tambah variabel
+
+Di dalam class \_StreamHomePageState ketik variabel berikut
+
+### Langkah 8: Edit initState()
+
+### Langkah 9: Edit dispose()
+
+### Langkah 10: Tambah method addRandomNumber()
+
+### Langkah 11: Edit method build()
+
+### Langkah 12: Run
+
+Lakukan running pada aplikasi Flutter Anda, maka akan terlihat seperti gambar berikut.
+
+### Soal 6
+
+- Jelaskan maksud kode langkah 8 dan 10 tersebut!
+  Jawab:
+  langkah 8 melakukan inisialisasi variable dan juga melakukan listen data pada numberStream.
+  langkah 10 melakukan random angka dengan angka maksima 10, kemudian angka tersebut dimasukkan / sink ke dalam numberStream.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
+
+!['gambar'](./docs/praktikum2_hasil.gif)
+
+### Langkah 13: Buka stream.dart
+
+Tambahkan method berikut ini.
+
+### Langkah 14: Buka main.dart
+
+Tambahkan method onError di dalam class StreamHomePageState pada method listen di fungsi initState() seperti berikut ini.
+
+### Langkah 15: Edit method addRandomNumber()
+
+Lakukan comment pada dua baris kode berikut, lalu ketik kode seperti berikut ini.
+
+### Soal 7
+
+- Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+- Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
