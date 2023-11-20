@@ -78,6 +78,8 @@ Lakukan running pada aplikasi Flutter Anda, maka akan terlihat berubah warna bac
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
 - Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"
 
+!['gambar'](./docs/praktikum1_hasil.gif)
+
 ### Langkah 13: Ganti isi method changeColor()
 
 Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
