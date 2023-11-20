@@ -87,4 +87,6 @@ Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
 ### Soal 5
 
 - Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+  Jawab:
+  Listen digunakan untuk memberikan fungsi callback ketika ada perubahan pada stream. Sedangkan await for akan melakukan iterasi setiap nilai yang didapatkan dari stream.
 - Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
