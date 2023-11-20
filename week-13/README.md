@@ -157,5 +157,7 @@ Lakukan comment pada dua baris kode berikut, lalu ketik kode seperti berikut ini
 ### Soal 7
 
 - Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+  Jawab:
+  langkah 13 sampai 15 mensimulasikan jika terjadi error pada Stream. Fungsi onError akan menghandle stream ketika terjadi error.
 - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
