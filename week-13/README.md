@@ -29,6 +29,8 @@ Tambahkan variabel di dalam class ColorStream seperti berikut.
 - Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
 - Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
 
+!['gambar'](./docs/praktikum1_2.jpg)
+
 ### Langkah 5: Tambah method getColors()
 
 Di dalam class ColorStream ketik method seperti kode berikut. Perhatikan tanda bintang di akhir keyword async\* (ini digunakan untuk melakukan Stream data)
