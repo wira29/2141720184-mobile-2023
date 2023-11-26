@@ -138,9 +138,8 @@ Lakukan running pada aplikasi Flutter Anda, maka akan terlihat seperti gambar be
   langkah 8 melakukan inisialisasi variable dan juga melakukan listen data pada numberStream.
   langkah 10 melakukan random angka dengan angka maksima 10, kemudian angka tersebut dimasukkan / sink ke dalam numberStream.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum2_hasil.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
-
-!['gambar'](./docs/praktikum2_hasil.gif)
 
 ### Langkah 13: Buka stream.dart
 
@@ -161,3 +160,28 @@ Lakukan comment pada dua baris kode berikut, lalu ketik kode seperti berikut ini
   langkah 13 sampai 15 mensimulasikan jika terjadi error pada Stream. Fungsi onError akan menghandle stream ketika terjadi error.
 - Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
+
+# Praktikum 3: Injeksi data ke streams
+
+### Langkah 1: Buka main.dart
+
+Tambahkan variabel baru di dalam class \_StreamHomePageState
+
+### Langkah 2: Tambahkan kode ini di initState
+
+### Langkah 3: Tetap di initState
+
+Lakukan edit seperti kode berikut
+
+### Langkah 4: Run
+
+Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bisa juga lakukan hot restart jika aplikasi sudah running. Maka hasilnya akan seperti gambar berikut ini. Anda akan melihat tampilan angka dari 0 hingga 90.
+
+### Soal 8
+
+- Jelaskan maksud kode langkah 1-3 tersebut!
+  Jawab:
+  Langkah 1 - 3 menambahkan StreamTransformer. Fungsi dari StreamTransformer adalah untuk melakukan operasi khusus terhadap data yang melewati Stream. Terdapat state handleData untuk memodifikasi data yang memasuki Stream, handleError untuk menangani Stream yang menghasilkan error, dan handleDone untuk menangani ketika Stream ditutup.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum3_hasil.gif)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
