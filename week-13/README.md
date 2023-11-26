@@ -185,3 +185,54 @@ Terakhir, run atau tekan F5 untuk melihat hasilnya jika memang belum running. Bi
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
   !['gambar'](./docs/praktikum3_hasil.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
+
+# Praktikum 4: Subscribe ke stream events
+
+### Langkah 1: Tambah variabel
+
+Tambahkan variabel berikut di class \_StreamHomePageState
+
+### Langkah 2: Edit initState()
+
+Edit kode seperti berikut ini.
+
+### Langkah 3: Tetap di initState()
+
+Tambahkan kode berikut ini.
+
+### Langkah 4: Tambah properti onDone()
+
+Tambahkan dibawahnya kode ini setelah onError
+
+### Langkah 5: Tambah method baru
+
+Ketik method ini di dalam class \_StreamHomePageState
+
+### Langkah 6: Pindah ke method dispose()
+
+Jika method dispose() belum ada, Anda dapat mengetiknya dan dibuat override. Ketik kode ini didalamnya.
+
+### Langkah 7: Pindah ke method build()
+
+Tambahkan button kedua dengan isi kode seperti berikut ini.
+
+### Langkah 8: Edit method addRandomNumber()
+
+Edit kode seperti berikut ini.
+
+### Langkah 9: Run
+
+Anda akan melihat dua button seperti gambar berikut.
+
+### Langkah 10: Tekan button ‘Stop Subscription'
+
+Anda akan melihat pesan di Debug Console seperti berikut.
+
+### Soal 9
+
+- Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+  Jawab:
+  Langkah 2 melakukan subscription terhadap numberStream. Langkah 6 melakukan stop subscription terhadap sebuah stream, namun stream masih berjalan. Langkah 8 melakukan pengecekan apakah numberStream berhenti atau tidak, jika belum berhenti maka akan menambahkan random number, namun jika sudah berhenti maka akan mengembalikan nilai -1.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum4_hasil.gif)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
