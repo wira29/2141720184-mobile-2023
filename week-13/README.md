@@ -318,3 +318,58 @@ Hasilnya, setiap detik akan tampil angka baru seperti berikut.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
   !['gambar'](./docs/praktikum6_hasil.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
+
+# Praktikum 7: BLoC Pattern
+
+### Langkah 1: Buat Project baru
+
+Buatlah sebuah project flutter baru dengan nama bloc_random_nama (beri nama panggilan Anda) di folder week-13/src/ repository GitHub Anda. Lalu buat file baru di folder lib dengan nama random_bloc.dart
+
+### Langkah 2: Isi kode random_bloc.dart
+
+Ketik kode impor berikut ini.
+
+### Langkah 3: Buat class RandomNumberBloc()
+
+### Langkah 4: Buat variabel StreamController
+
+Di dalam class RandomNumberBloc() ketik variabel berikut ini
+
+### Langkah 5: Buat constructor
+
+### Langkah 6: Buat method dispose()
+
+### Langkah 7: Edit main.dart
+
+### Langkah 8: Buat file baru random_screen.dart
+
+Di dalam folder lib project Anda, buatlah file baru ini.
+
+### Langkah 9: Lakukan impor material dan random_bloc.dart
+
+Ketik kode ini di file baru random_screen.dart
+
+### Langkah 10: Buat StatefulWidget RandomScreen
+
+Buatlah di dalam file random_screen.dart
+
+### Langkah 11: Buat variabel
+
+Ketik kode ini di dalam class \_RandomScreenState
+
+### Langkah 12: Buat method dispose()
+
+Ketik kode ini di dalam class \_StreamHomePageState
+
+### Langkah 13: Edit method build()
+
+Ketik kode ini di dalam class \_StreamHomePageState
+
+### Soal 13
+
+- Jelaskan maksud praktikum ini ! Dimanakah letak konsep pola BLoC-nya ?
+  Jawab:
+  Pada praktikum sebelumnya kita melakukan listen stream pada 1 file, pada praktikum ini dipisahkan ke file baru, sehingga kita dapat membedakan antara UI dengan Business Logic aplikasi.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum7_hasil.gif)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 13".
