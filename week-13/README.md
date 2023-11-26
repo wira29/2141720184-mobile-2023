@@ -236,3 +236,44 @@ Anda akan melihat pesan di Debug Console seperti berikut.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
   !['gambar'](./docs/praktikum4_hasil.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".
+
+# Praktikum 5: Multiple stream subscriptions
+
+### Langkah 1: Buka file main.dart
+
+Ketik variabel berikut di class \_StreamHomePageState
+
+### Langkah 2: Edit initState()
+
+Ketik kode seperti berikut.
+
+### Langkah 3: Run
+
+Lakukan run maka akan tampil error seperti gambar berikut.
+
+### Soal 10
+
+- Jelaskan mengapa error itu bisa terjadi ?
+  Jawab:
+  Error ini terjadi karena 2 subscription melakukan listen kepada Stream yang sama, dan stream belum di broadcast.
+
+### Langkah 4: Set broadcast stream
+
+Ketik kode seperti berikut di method initState()
+
+### Langkah 5: Edit method build()
+
+Tambahkan text seperti berikut
+
+### Langkah 6: Run
+
+Tekan button ‘New Random Number' beberapa kali, maka akan tampil teks angka terus bertambah sebanyak dua kali.
+
+### Soal 11
+
+- Jelaskan mengapa hal itu bisa terjadi ?
+  Jawab:
+  Hal itu bisa terjadi karena 1 Stream dilakukan listen dua kali pada subscription dan subscription2, sehingga angka akan terus bertambah sebanyak 2 kali.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum5_hasil.gif)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
