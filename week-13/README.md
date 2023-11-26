@@ -277,3 +277,44 @@ Tekan button ‘New Random Number' beberapa kali, maka akan tampil teks angka te
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
   !['gambar'](./docs/praktikum5_hasil.gif)
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
+
+# Praktikum 6: StreamBuilder
+
+### Langkah 1: Buat Project Baru
+
+Buatlah sebuah project flutter baru dengan nama streambuilder_nama (beri nama panggilan Anda) di folder week-13/src/ repository GitHub Anda.
+
+### Langkah 2: Buat file baru stream.dart
+
+Ketik kode ini
+
+### Langkah 3: Tetap di file stream.dart
+
+Ketik kode seperti berikut.
+
+### Langkah 4: Edit main.dart
+
+Ketik kode seperti berikut ini.
+
+### Langkah 5: Tambah variabel
+
+Di dalam class \_StreamHomePageState, ketika variabel ini.
+
+### Langkah 6: Edit initState()
+
+Ketik kode seperti berikut.
+
+### Langkah 7: Edit method build()
+
+### Langkah 8: Run
+
+Hasilnya, setiap detik akan tampil angka baru seperti berikut.
+
+### Soal 12
+
+- Jelaskan maksud kode pada langkah 3 dan 7 !
+  Jawab:
+  Langkah 3 adalah melakukan yield random number kedalam stream setiap 1 detik. Langkah 7 melakukan listen pada numberStream pada tampilan, sehingga tampilan otomatis akan dirender ulang setiap ada data baru.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+  !['gambar'](./docs/praktikum6_hasil.gif)
+- Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
